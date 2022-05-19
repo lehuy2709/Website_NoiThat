@@ -1,0 +1,151 @@
+.slideshow-container{
+    display: none;
+}
+.product-boxs{
+    display: none;
+}
+.news{
+    display: none;
+}
+.news-product{
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.news-product .name_product {
+    text-align: justify;
+    font-size: 20px;
+    margin: 0;
+  }
+.content hr{
+    display: none;
+}
+.news-product .qr_sp,.news-product .price_sp,.news-product .details_sp{
+    text-align: justify;
+}
+.news-product .title-cmt,.news-product .guest_name,.news-product .cmt_time,.news-product .content-cmt{
+    text-align: justify;
+}
+.news-product .title-cmt,.news-product .guest_name,.news-product .cmt_time,.news-product .content-cmt{
+    margin: 0;
+}.news-product .content-cmt{
+    margin: 20px 0 0 50px;
+}
+.news-product .cmt_time{
+    margin-top: 15px;
+}
+.infor-total {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 40px;
+  }
+  .imgphu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .imgphu img {
+    margin-left: 46px;
+    margin-top: 20px;
+  }
+  .imgphu img:nth-child(1) {
+    max-width: 180px;
+  }
+  .imgsp img {
+    height: 600px;
+    width: 630px;
+    margin-left: 7%;
+  }
+  .tensp {
+    margin-bottom: 20px;
+  }
+  .tensp p {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .masp {
+    margin-bottom: 20px;
+  }
+  .giasp {
+    margin-bottom: 20px;
+  }
+  .giasp p {
+    font-size: 20px;
+    color: #ff2020;
+    font-weight: bold;
+  }
+  .motasp {
+    margin-bottom: 20px;
+  }
+  .buttonsp {
+    margin-left: 65%;
+  }
+  .buttonsp button {
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+  .buttonsp button:hover {
+    background-color: #ffdead;
+    transition: 0.5s ease-in-out;
+    color: black;
+  }
+  .right {
+    margin-left: 8%;
+    margin-right: 10%;
+  }
+  
+  .comment {
+    box-sizing: border-box;
+    margin-top: 40px;
+    border-top: 1px solid black;
+  }
+  .comment-title {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .comment-show {
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+  .inforguest-comment {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+  .imgguest-comment img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 40px;
+  }
+  .guestname-comment p {
+    font-weight: bold;
+  }
+  .guestname-comment-time p {
+    margin-top: 15px;
+  }
+  .detail-comment p {
+    margin: 20px 0 0 50px;
+  }
+  .fill-comment {
+    margin: 20px 0 0 50px;
+  }
+  .btun button {
+    margin: 10px 0 0 0;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background: #000;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .btun button:hover {
+    background-color: #ffdead;
+    transition: 0.5s ease-in-out;
+    color: black;
+  }
+  .ti-search{
+      font-size: 20px;
+  }
