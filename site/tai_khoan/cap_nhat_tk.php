@@ -3,7 +3,7 @@ require '../../pdo.php';
 require '../../global.php';
 require '../../dao/khach_hang.php';
 require '../../dao/loai_hang.php';
-check_login();
+// check_login();
 // extract($_SESSION["user"]);
 extract($_REQUEST);
 $loai_hang = loai_hang_get_all();
